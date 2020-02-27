@@ -5,17 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume | Anil Bhattarai, PhD</title>
     <style>
+        *, *::before, *::after{
+            box-sizing: border-box;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            --darkTheme: rgb(34, 29, 29);
+            --lightTheme: rgba(240, 232, 232, 0.322);
+        }
+        body{
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            font-family: Arial;
+            background: url('anil_wall.jpg') center/cover no-repeat;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .app-wrapper{
+            position: relative;
+            padding: 0 10px;
+            height: 100vh;
+            background: rgba(255, 255, 255, 0.178);
+        }
+        .main-header{
+            position: relative;
+        }
+        .home-link{
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            color: var(--darkTheme);
+        }
 
     </style>
 </head>
 <body>
-    <header class="main-header">
-        <h1 class="masthead">Dr Anil Bhattarai, PhD - Resume</h1>
-        <nav class="main-nav">
-            <a href="https://dr-anil.com" class="main-link">Dr Anil Home</a>
-        </nav>
-    </header>
-    
+    <section class="app-wrapper">
+        <header class="main-header">
+            
+        <a href="https://dr-anil.com" class="home-link">
+            <h1 class="masthead">Dr Anil Bhattarai, PhD</h1>
+        </a>
+        </header>
+    </section>
+        
     <script>
 
     </script>
