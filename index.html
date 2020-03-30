@@ -29,30 +29,51 @@
         }
         .app-wrapper{
             position: relative;
-            padding: 0 10px;
             height: 100vh;
             background: rgba(255, 255, 255, 0.178);
         }
         .main-header{
             position: relative;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.24);
         }
         .home-link{
             position: absolute;
             top: 8px;
             right: 8px;
-            color: var(--darkTheme);
+            color: black;
+        }
+        .resume-content{
+            padding: 20px;
+        }
+        .page-title{
+            padding-top: 80px;
+            text-align: center;
+        }
+        .resume-items{
+            
         }
 
     </style>
 </head>
 <body>
     <section class="app-wrapper">
-        <header class="main-header">
-            
         <a href="https://dr-anil.com" class="home-link">
             <h1 class="masthead">Dr Anil Bhattarai, PhD</h1>
         </a>
-        </header>
+        <main class="resume-content">
+            <h2 class="page-title">Resume</h2>
+            <article class="resume-items">
+                <div class="contact-details">
+                    <a href="mailto:anilbhattarai@gmail.com" class="email">anilbhattarai@gmail.com</a>
+                    <a href="tel:+14618570496" class="phone">1(416)857-0496</a>
+                </div>
+                <div class="brief-bio">
+                    <p>I am a fullstack developer specializing in Django applications with HTML, CSS and Javascript on the frontend and Python at the backend.</p>
+                </div>
+            </article>
+
+        </main>    
     </section>
         
     <script>
