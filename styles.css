@@ -1,0 +1,49 @@
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+    --darkTheme: rgb(34, 29, 29);
+    --lightTheme: rgba(240, 232, 232, 0.322);
+}
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial;
+    background: url('anil_wall.jpg') center/cover no-repeat;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.app-wrapper{
+    position: relative;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.178);
+}
+.main-header{
+    position: relative;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.24);
+}
+.home-link{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: black;
+}
+.resume-content{
+    padding: 20px;
+}
+.page-title{
+    padding-top: 80px;
+    text-align: center;
+}
+.resume-items{
+    
+}
